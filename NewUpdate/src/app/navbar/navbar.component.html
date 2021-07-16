@@ -1,0 +1,49 @@
+<!-- Top Nav-bar Code -->
+
+<mat-toolbar class="backgroundColor">
+  <span routerLink='' class="color"><img src="https://www.cardinalhealth.com/content/dam/corp/web/logos/logo_footer.png" class="navImage" width="117px"> 
+    <br> <div class="navText"> Advanced Practice Analytics</div>
+  </span>
+  
+  <form id="search">
+    <input type="search" placeholder="Search">
+  </form>
+    
+  <div class="spacer"></div>
+
+
+  <div class="spacer"></div>
+  <a mat-button class="color">
+    <mat-icon class="iconProfile">circle_notifications</mat-icon>
+  </a>
+
+  <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    <!-- Profile Button Menu -->
+   <mat-icon class="iconProfile">account_circle</mat-icon> 
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item routerLink="account">
+      <span>My Account</span>
+    </button>
+
+    <button mat-menu-item routerLink="support">
+      <span>Customer Support</span>
+    </button>
+
+    <button mat-menu-item routerLink="training">
+      <span>Training</span>
+    </button>
+
+    <button mat-menu-item>
+      <span>Link 4</span>
+    </button>
+
+    <button mat-menu-item>
+      <span>Prototype TOC</span>
+    </button>
+
+  </mat-menu>
+
+</mat-toolbar>
+
+<!-- Used the Angular Material API to call this toolbar for easy usage -->

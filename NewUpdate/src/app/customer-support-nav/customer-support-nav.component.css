@@ -1,0 +1,71 @@
+.overall{
+    max-width: 100%;
+    height: 2000px;
+    margin-left: 40px;
+}
+
+/* Here is the form styling */
+.example-form {
+    min-width: 250px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .form{
+      width: 100%;
+     height: 400px;
+  }
+  
+  td {
+    padding-right: 8px;
+  }
+
+  .btnSave{
+    background-color: rgb(13, 220, 220);
+    color: white;
+    width: 15%;
+    height: 40px;
+    border-radius: 8px;
+   float: right;
+   margin-top: -340px;
+
+  }
+  .btnReset{
+     float: left;
+     border-radius: 8px;
+     margin-top: -340px;
+     width: 15%;
+     height: 40px;
+     background-color: white;
+     margin-left: 315px;
+  }
+  h1{
+    text-align:justify;
+    margin: 9px;
+    font-size: 25px;
+    margin-top: -30px;
+    text-align: left;
+    margin-left: 10px;
+}
+.text{
+    font: large;
+    font-style: oblique;
+    font-size: 25px;
+    text-align: justify;
+    font-style: italic;
+    margin-top: 55px;
+    margin-left: 1px;
+   
+  }
+  h3{
+      font-size: 25px;
+      margin-top: 40px;
+  }
+  p{
+    margin-left: 20px;
+  }

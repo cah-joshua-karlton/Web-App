@@ -1,0 +1,59 @@
+<!-- This component works with the Reimbursement Column Card
+This component also has a total of six non-activated cards and specific images must be added
+-->
+
+<div class="Revdash"> 
+
+    <h1 class="Header"> Reimbursement </h1>
+
+   
+    <p>This section will provide you with insights into your payment for a specific drugs at a patient level as well as your time to receive payment </p>
+
+
+          <!-- Responsive Cards for Reimbursement Main -->
+        <!-- Each Column Card has a routerLink that once clicked goes to each component -->
+    <div class="cardContainer">
+        <div class="card">
+            <img class="iconShow" src="/assets/insight.png" width=55% height="42%" > 
+        <h2 class="cardText">Overall Reimbursement Insights</h2>
+        <p class="cardPargraph"> How am I being paid for the drugs <br> I administer?</p>
+        </div>
+
+
+        <div class="card">
+            <img class="iconShow" src="/assets/contract.png"   width=45% height="42%" > 
+        <h2 class="cardText" > Reimbursement Summary
+        </h2>
+        <p class="cardPargraph"> PLACEHOLDER FOR SUBTITLE</p>
+        </div>
+
+        <div class="card">
+            <img class="iconShow" src="/assets/danger.png"  width=45% height="42%" > 
+        <h2 class="cardText">What's at Risk by Service / <br> Drug Code</h2>
+        <p class="cardPargraph"> What payment have I not received?</p>
+        </div>
+
+        
+        <div class="card">
+        <img class="iconShow" src="/assets/moneyTime.png"   width=45% height="42%" > 
+        <h2 class="cardText">Time to Payment</h2>
+        <p class="cardPargraph">How long does it take for <br> me to receive payment</p>
+        </div>
+
+        <div class="card">
+            <img class="iconShow" src="/assets/calendar.png"   width=50% height="37%" > 
+            <h2 class="cardText"> Average Time to Submit / <br> Average Days to Payment</h2>
+            <p class="cardPargraph">How long does it take to <br> submit and be paid?</p>
+            </div>
+
+        <div routerLink="/varianceRem" class="card">
+        <img class="iconShow" src="/assets/budget.png"   width=50% height="37%" > 
+        <h2 class="cardText"> Reimbursement Variances</h2>
+        <p class="cardPargraph">Am I leaving money on the table?</p>
+        </div>
+       
+
+    
+</div>    
+
+</div>

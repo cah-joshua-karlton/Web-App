@@ -1,0 +1,24 @@
+<app-navbar>
+    <h1>Cardinal Health</h1>
+</app-navbar>
+
+<mat-sidenav-container>
+    <mat-sidenav mode="over" [(opened)]= "opened" #sidenav mode="side" >
+
+        <app-side-nav><app-navbar></app-navbar>
+        </app-side-nav>
+        <!-- Placed the Side Nav Component inside  --> 
+    </mat-sidenav>
+    
+    <mat-sidenav-content>
+        <button mat-icon-button (click)="opened=!opened" aria-label="Example icon-button with menu icon">
+            <mat-icon class="menu">menu</mat-icon>
+            <!-- Menu Icon -->
+          </button>
+        
+        <!-- sidenav-content is what showed the Dashboard component -->
+        <router-outlet></router-outlet>
+        <!-- The dashboard component or content will show work accordingly -->
+    </mat-sidenav-content>
+</mat-sidenav-container>
+<app-footer></app-footer>

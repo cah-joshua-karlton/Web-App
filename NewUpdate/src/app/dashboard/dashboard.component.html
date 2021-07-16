@@ -1,0 +1,52 @@
+<div class="dash">  
+
+    <!-- Dashboard banner -->
+    <header id="showcase">
+        <h1>Welcome To Cardinal Health</h1>
+        <p> Our goal is to provide you the best tools for your business to succeed</p>
+        <a href="#" class="button">Have Questions? Contact Us.</a>
+      </header>
+
+   
+
+
+    <h2 class="text">The power to improve your practice</h2>
+    <hr class="solid"> <!-- Simple Soild Line to separate each sentence -->
+    <p>Advanced Practice Analytics empowers you to access rich, clinical, financial and operational data across your entire drug spend, 
+        including both orals and injectable (IV) medications. </p>
+        
+        <!-- Responsive Cards for dashboard -->
+        <!-- Each Column Card has a routerLink that once clicked goes to each component -->
+    <div class="cardContainer">
+            <div routerLink = "/revenueCycle" class="card">
+                <img class="iconShow" src="/assets/revenue.png"   width=55% height="45%" > 
+            <h2 class="cardText">Revenue Cycle</h2>
+            <p class="cardPargraph">How can I spot potential billing <br> problems?</p>
+            </div>
+
+            <div routerLink = "/DiagnosisNav" class="card">
+                <img class="iconShow" src="/assets/report.png"   width=50% height="45%" > 
+            <h2 class="cardText" > Diagnosis / <br> Patient Exploration
+            </h2>
+            <p class="cardPargraph">What diagnosis categories are being treated  in my practice?</p>
+            </div>
+
+            <div routerLink="TrendsNav" class="card">
+                <img class="iconShow" src="/assets/trend.png"   width=50% height="45%" > 
+            <h2 class="cardText">Trends</h2>
+            <p class="cardPargraph">How can I see trends associated with days to  <br> payment or drug margins?</p>
+            </div>
+
+            
+            <div routerLink="Physician Performance"  class="card">
+            <img class="iconShow" src="/assets/doctor.png"   width=50% height="45%" > 
+            <h2 class="cardText">Physician Performance</h2>
+            <p class="cardPargraph">How do I evalute my Physicians'<br> E&M coding practices</p>
+            </div>
+           
+
+        
+    </div>    
+
+</div>
+

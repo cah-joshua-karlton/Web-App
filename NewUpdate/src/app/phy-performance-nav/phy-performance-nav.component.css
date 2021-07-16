@@ -1,0 +1,128 @@
+.dash{
+    max-width: 200%;
+    height: 2000px;
+    font: large;
+    font-size: 25px;
+    text-align: justify;  
+    margin-left: 45px; 
+}
+.Header{
+   text-align:justify;
+   margin: 9px;
+   font-size: 25px;
+   margin-top: -30px;
+   text-align: left;
+   margin-left: 43px;
+}
+hr.solid {
+    border-top: 3px solid #b3113a;
+    
+  }
+  
+  .text{
+    font: large;
+    font-style: oblique;
+    font-size: 25px;
+    text-align: justify;
+    font-style: italic;
+    margin-top: 55px;
+    margin-left: 30px;
+   
+  }
+  p{
+    text-align: justify;
+    word-break: keep-all;
+    letter-spacing: -1px;
+   font-size: 15px;
+   margin-left: 35px;
+
+  }
+
+  /* Column Cards  */
+  /* Float four columns side by side */
+.column {
+  float: left;
+  width: 18%;
+  padding: 0 10px;
+ margin: 30px;
+ margin-right: 45px;
+ margin-top: 40px;
+ position: center;
+ align-items: center;
+}
+
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive Cards */
+  .card {
+    color: white;
+    float: left;
+    width: calc(20% - 13px);
+    padding: 16px;
+    border-radius: 10px;
+    margin: 24px;
+    height: 450px;
+    margin-top: 45px;
+    
+ }
+ /* Hovering effect */
+ 
+
+ .card:hover{
+  border-color: darkblue !important;
+  background-color: lightblue !important;
+  box-shadow:black !important;
+
+}
+
+
+ .card p {
+    font-size: 20px;
+ }
+ .cardContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+ .cardText{
+   font-size: 100%;
+   text-align: center;
+   color: black;
+   margin-top: -22px;
+ }
+ .cardPargraph{
+  position: bottom;
+  color: black;
+  text-align: justify;
+  font-family: 'Times New Roman';
+  word-break: keep-all;
+  letter-spacing: -1.3px;
+  text-align: center;
+  font-size: 90%;
+
+ }
+
+ .iconShow{
+   position: center;
+   align-self: center;
+   align-items: center;
+   margin: 25%;
+   margin-top: 5px;
+   cursor: pointer;
+ }
+ @media screen and (max-width: 500px) {
+    .card {
+       width: 75%;
+    }
+  }
+  
+  
+  

@@ -1,0 +1,74 @@
+.spacer{
+    flex: 1 1 auto;
+}
+.color{
+    color: black;
+    cursor: pointer;
+}
+.backgroundColor{
+    background-color: rgb(28, 206, 206);
+    
+    
+}
+
+.navImage{
+  /* Takes care of the Top Navbar display image */
+  position: center;
+  margin-top: 10px;
+  margin-right: 70px;
+}
+.navText{
+  font-size: 15px;
+  margin-top: -17px;
+}
+.iconProfile{
+    size: 40%;
+    cursor: pointer;
+}
+
+#search input[type=search] {
+    width: 35px;
+    padding-left: 10px;
+    color: transparent;
+    cursor: pointer;
+    border-radius: 9px;
+    margin-top: -55px;
+    margin:25px;
+    margin-block-start: flex;
+  }
+  #search input[type=search]:focus {
+    width: 95%;
+    padding-left: 32px;
+    cursor: auto;
+  }
+  #search input:-moz-placeholder {
+    color: transparent;
+  }
+  #search input::-webkit-input-placeholder {
+    color: transparent;
+  }
+
+
+
+
+
+/* .search{ 
+   font-size: 13px;
+   font-style: italic;
+   height: 22px;
+   outline: medium none;
+   border-radius: 9px;
+   width: 119%;
+   margin-right: 100%;
+   box-sizing: 100%;
+}
+.searchBtn{
+    padding-bottom: 2px;
+    border-radius: 5px;
+    margin-left: -109px;
+   
+}
+*/
+mat-toolbar{
+    max-width: 110%;
+}
