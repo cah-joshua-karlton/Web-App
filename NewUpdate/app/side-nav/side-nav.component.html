@@ -1,0 +1,63 @@
+
+  <!-- <mat-accordion class="example-headers-align" multi> -->
+      <!-- Side Navbar Main Panel -->
+    <mat-accordion class="example-headers-align" multi> 
+        <mat-expansion-panel class="mat-expansion-panel-spacing">
+             <!--  "mat-expansion-panel-spacing" was used to delete the spacing in the css-->
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Revenue Cycle 
+            </mat-panel-title>
+           </mat-expansion-panel-header>
+        
+    <!-- Called the SubMenu Item Component for a cleaner code -->
+        <app-side-nav-subitem class="mat-expansion-panel-spacing"></app-side-nav-subitem>
+        <app-reimbursement-sub-item class="mat-expansion-panel-spacing"></app-reimbursement-sub-item>
+        <app-denials></app-denials>
+        <app-margin-subitem></app-margin-subitem>
+      
+       </mat-expansion-panel>
+
+
+        <mat-expansion-panel> 
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+             Diagnosis/Patient Exporation
+            </mat-panel-title>
+           </mat-expansion-panel-header>
+        <!-- Call the tree Compement here || also required a new component to do a nested tree subitem-->
+        <app-exploration-item></app-exploration-item>
+       </mat-expansion-panel>
+
+
+        <mat-expansion-panel> 
+          <mat-expansion-panel-header>
+            <!-- Does not require any new component due to the simple layout design -->
+            <mat-panel-title>
+             Trend
+            </mat-panel-title>
+           </mat-expansion-panel-header>
+           <div>Revenue Cycle</div>
+           <div>Margin</div>
+           <div>Reconciliation</div>
+           <div>Diagnosis</div>
+           <div>Drug Comparison</div>
+       </mat-expansion-panel>
+
+       <mat-expansion-panel> 
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+           Physician Performance
+          </mat-panel-title>
+         </mat-expansion-panel-header>
+      <div>Dashboard</div>
+      <div>Modifiers</div>
+      <div>RVU by Month</div>
+      <div>RVU by MD CPT</div>
+     </mat-expansion-panel>
+
+
+
+      </mat-accordion>
+      
+      

@@ -1,0 +1,21 @@
+.spacer{
+    flex: 1 1 auto;
+}
+.color{
+    color: black;
+}
+.backgroundColor{
+    background-color: orange;
+}
+.search{
+    font-size: 13px;
+   font-style: italic;
+   height: 22px;
+   outline: medium none;
+   position: center;
+   width: 709px;
+}
+.searchBtn{
+    position: center;
+    padding-bottom: 2px;
+}

@@ -1,0 +1,46 @@
+
+
+<mat-toolbar class="backgroundColor"> 
+    <span class="color">Cardinal Health</span>
+    
+    <div class="spacer"></div>
+    
+    
+    <form class="d-flex">
+        <input class="form-control me-2" class="search" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" class="searchBtn"type="submit">Search</button>
+        <!-- Search bar -->
+      </form>
+
+    
+    <div class="spacer"></div>
+    <a mat-button class="color"><mat-icon>circle_notifications</mat-icon></a>
+    
+    <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+        <mat-icon>account_circle</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>
+          <span>My Account</span>
+        </button>
+        <button mat-menu-item>
+          <span>Customer Support</span>
+        </button>
+        <button mat-menu-item>
+            <span>Training</span>
+          </button>
+
+          <button mat-menu-item>
+            <span>Link 4</span>
+          </button>
+
+          <button mat-menu-item>
+            <span>Prototype TOC</span>
+          </button>
+
+      </mat-menu>
+    
+</mat-toolbar>
+
+<!-- Used the Angular Material API to call this toolbar for easy usage -->
+

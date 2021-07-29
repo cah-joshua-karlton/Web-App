@@ -1,0 +1,16 @@
+<app-navbar></app-navbar>
+
+
+
+<!-- <router-outlet></router-outlet> -->
+
+<mat-sidenav-container>
+    <mat-sidenav #sidenav mode="side" opened >
+        <app-side-nav></app-side-nav>
+        <!-- Placed the Side Nav Component inside  -->
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <app-dashboard></app-dashboard>
+        <!-- The dashboard component or content will show work accordingly -->
+    </mat-sidenav-content>
+</mat-sidenav-container>
